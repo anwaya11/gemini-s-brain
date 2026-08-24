@@ -1,0 +1,51 @@
+# Environment and Python Virtual Environments
+.env
+.env*.local
+.venv/
+venv/
+ENV/
+env/
+
+# Python Cache & Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Databases & Local data
+*.sqlite3
+*.db
+chimera_soc_dev.db
+
+# Node & Next.js
+node_modules/
+.next/
+frontend/node_modules/
+frontend/.next/
+frontend/dist/
+frontend/build/
+
+# IDE & Operating System
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
